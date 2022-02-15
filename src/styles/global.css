@@ -1,0 +1,231 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+.cash-title{
+    object-fit: cover;
+    z-index: 4;
+    font-size: 50px;
+    font-size: 3vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.background-icon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.cash-icon{
+ 
+    position: absolute;
+    object-fit: contain;
+    width: 20%;
+    height: 40%;
+    top: 50%;
+    left: 40%;
+    z-index: 2;
+    animation-name: cashBlink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cashBlink {
+
+    
+    0%   {content: url('/public/images/cashClosedEyes.svg')}
+    25%  {content: url('/public/images/cash.svg')}
+    50%  {content: url('/public/images/cash.svg')}
+    100% {content: url('/public/images/cash.svg')}
+
+  }
+
+  
+  @-webkit-keyframes cashBlink {
+
+    
+    0%   {content: url('/public/images/cashClosedEyes.svg')}
+    25%  {content: url('/public/images/cash.svg')}
+    50%  {content: url('/public/images/cash.svg')}
+    100% {content: url('/public/images/cash.svg')}
+
+  }
+  
+  .cash-win{
+
+    position: absolute;
+    object-fit: contain;
+    width: 20%;
+    height: 40%;
+    top: 50%;
+    left: 40%;
+    z-index: 2;
+    animation-name: cashWin;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+  
+@keyframes cashWin {
+    0%   {content: url('/public/images/wag1.svg')}
+    25%  {content: url('/public/images/wag2.svg')}
+    50%  {content: url('/public/images/wag3.svg')}
+    75%  {content: url('/public/images/wag4.svg')}
+    100%  {content: url('/public/images/wag5.svg')}
+}
+.cash-fail{
+
+    position: absolute;
+    object-fit: contain;
+    width: 20%;
+    height: 40%;
+    top: 50%;
+    left: 40%;
+    z-index: 2;
+    animation-name: cashfail;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+  
+@keyframes cashfail {
+    0%   {content: url('/public/images/fail-06.svg')}
+    15%   {content: url('/public/images/fail-05.svg')}
+    30%   {content: url('/public/images/fail-04.svg')}
+    45%   {content: url('/public/images/fail-03.svg')}
+    60%   {content: url('/public/images/fail-02.svg')}
+    100%   {content: url('/public/images/fail-01.svg')}
+}
+
+
+.cash-likes-heading{
+    object-fit: cover;
+    text-align: center;
+    width: 20%;
+    background-color: rgb(151, 245, 182, .50);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    z-index: 3;
+    position: fixed;
+    border: 5px solid #222;
+    top: 10%;
+    left: 5%;
+
+
+    overflow: hidden;
+}
+
+.cash-likes{
+    object-fit: cover;
+    width: 20%;
+    left: 5%;
+    background-color: rgb(151, 245, 182, .50);
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 25vw;
+    z-index: 3;
+    position: fixed;
+    border: 5px solid #222;
+    top: 20%;
+    overflow: hidden;
+}
+
+.cash-hates-heading{
+    object-fit: cover;
+    text-align: center;
+    width: 20%;
+    background-color: rgba(219, 90, 90, 0.5);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    z-index: 3;
+    position: fixed;
+    border: 5px solid #222;
+    top: 10%;
+    right: 5%;
+    overflow: hidden;
+    
+}
+
+.cash-hates{
+    object-fit: cover;
+    width: 20%;
+    right: 5%;
+    background-color: rgba(219, 90, 90, 0.5);
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 25vw;
+    z-index: 3;
+    position: fixed;
+    border: 5px solid #222;
+    top: 20%;
+    overflow: hidden;
+}
+
+.cash-choices{
+    object-fit: cover;
+
+    width: 20%;
+    background-color: rgba(116, 186, 243, 0.5);
+    padding: 5%;
+    z-index: 3;
+    position: fixed;
+    border: 5px solid #222;
+    top: 10%;
+    overflow: hidden;
+}
+
+.choice-list li {
+    display:inline;
+    
+   
+}
+
+.choice-list{
+    text-align: center;
+    position: absolute;
+    list-style: none;
+    top: 10%;
+    right: 80px;
+}
+
+.choice-list img{
+    object-fit: cover;
+    width: 20%;
+
+}
+
+.reset-button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    bottom: 25px;
+    right: 35%;
+    z-index: 5;
+    background-color: rgb(223, 243, 136, .25);
+}
+.answer-button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    bottom: 25px;
+    left: 35%;
+    z-index: 5;
+    background-color: rgb(223, 243, 136, .25);
+}
