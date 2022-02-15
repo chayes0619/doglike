@@ -121,7 +121,7 @@ let ChoiceList = [
         return (
             <>
             <div  className='cash-title'>
-            <header>What does Cash like??</header>
+            <header>What does Cash like?</header>
             </div>
             <img src='https://chayes0619.github.io/doglike/images/background.png' alt="cash" className="background-icon"></img>
             <img  alt="cash" className= {cash}></img>
