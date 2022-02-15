@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/doglike/static/css/main.8dd6e523.css",
-    "main.js": "/doglike/static/js/main.07eeb4c6.js",
+    "main.css": "/doglike/static/css/main.8f22def1.css",
+    "main.js": "/doglike/static/js/main.685c2371.js",
     "static/media/cashClosedEyes.svg": "/doglike/static/media/cashClosedEyes.d97b42691d811f47c367.svg",
     "static/media/cash.svg": "/doglike/static/media/cash.563d98b5c08658174956.svg",
     "static/media/fail-02.svg": "/doglike/static/media/fail-02.b77c6ee4b67d8129b099.svg",
@@ -16,11 +16,11 @@
     "static/media/wag2.svg": "/doglike/static/media/wag2.584740bc1d9d1148c50e.svg",
     "static/media/wag3.svg": "/doglike/static/media/wag3.a2c9ec06d03290a7c912.svg",
     "index.html": "/doglike/index.html",
-    "main.8dd6e523.css.map": "/doglike/static/css/main.8dd6e523.css.map",
-    "main.07eeb4c6.js.map": "/doglike/static/js/main.07eeb4c6.js.map"
+    "main.8f22def1.css.map": "/doglike/static/css/main.8f22def1.css.map",
+    "main.685c2371.js.map": "/doglike/static/js/main.685c2371.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dd6e523.css",
-    "static/js/main.07eeb4c6.js"
+    "static/css/main.8f22def1.css",
+    "static/js/main.685c2371.js"
   ]
 }
