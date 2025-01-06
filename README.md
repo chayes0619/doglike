@@ -1,3 +1,3 @@
-Simple react app that lets you guys what my dog Cash likes.
+Simple react app that lets you guess what my dog Cash likes.
 
 https://chayes0619.github.io/doglike/
